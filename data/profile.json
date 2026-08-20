@@ -1,0 +1,129 @@
+{
+  "name": "Kati Sandström",
+  "role": "Butiksansvarig · Arbetsledare · Praktisk problemlösare",
+  "eyebrow": "Portfolio · Sollentuna",
+  "hero_title": "Erfaren butiksledare med ett genuint intresse för snickeri, verktyg och smarta lösningar.",
+  "hero_text": "Jag kombinerar lång erfarenhet av butiksdrift, kundservice och arbetsledning med ett praktiskt intresse för att bygga, renovera och skapa funktionella lösningar i trä.",
+  "location": "Sollentuna, Sverige",
+  "phone": "070-718 27 76",
+  "email": "kati_huhtala@hotmail.com",
+  "about_title": "Ansvar, service och praktiskt handlag",
+  "about": [
+    "Jag har över 15 års erfarenhet från detaljhandeln och har under mer än ett decennium arbetat som butiksansvarig på ICA Maxi Barkarbystaden. I vardagen är jag van att prioritera, samordna, lösa problem och se till att kunder, kollegor och varuflöden fungerar på ett tryggt och effektivt sätt.",
+    "På fritiden bygger och renoverar jag mycket själv. Jag tycker särskilt om måttanpassade möbler, förvaring och andra praktiska lösningar där funktion och finish behöver fungera tillsammans. Det har gett mig bred vana av verktyg, material och problemlösning i praktiken."
+  ],
+  "stats": [
+    {
+      "value": "15+",
+      "label": "år inom detaljhandel"
+    },
+    {
+      "value": "12+",
+      "label": "år som butiksansvarig"
+    },
+    {
+      "value": "3",
+      "label": "språk"
+    },
+    {
+      "value": "A2/A4",
+      "label": "truckbehörighet"
+    }
+  ],
+  "strengths": [
+    "Tar ansvar och får saker gjorda",
+    "Van vid högt tempo",
+    "Noggrann och lösningsorienterad",
+    "Trygg i kundkontakt och samordning"
+  ],
+  "skills": [
+    "Butiksdrift",
+    "Kundservice",
+    "Ledarskap",
+    "Kommunikation",
+    "Problemlösning",
+    "Varumottagning",
+    "Returhantering",
+    "Varuflöden",
+    "Pantmaskiner",
+    "Kassa",
+    "Säkerhet & rutiner",
+    "Snickeri",
+    "Verktyg & material",
+    "Praktiska speciallösningar"
+  ],
+  "languages": [
+    "Svenska",
+    "Engelska",
+    "Finska"
+  ],
+  "licenses": [
+    "B-körkort",
+    "Truckkort · TLP10 A2 och A4"
+  ],
+  "courses": [
+    {
+      "year": "2022",
+      "title": "ICA MAXI ledarskapsutbildning"
+    },
+    {
+      "year": "2016",
+      "title": "ICA MAXI gruppdynamik och ledarskap"
+    },
+    {
+      "year": "2016",
+      "title": "HLR med halvautomatisk defibrillator"
+    },
+    {
+      "year": "2011",
+      "title": "Grundutbildning truck enligt TLP10, A2 och A4"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2014 – pågående",
+      "title": "Butiksansvarig",
+      "place": "ICA Maxi Barkarbystaden · Storbutiken i Barkarby AB",
+      "description": "Ansvar för daglig drift, prioritering och uppföljning. Arbetar även med varumottagning, leveranser, returhantering, pant, säkerhetsrutiner, felrapportering och stöd till butikens olika avdelningar."
+    },
+    {
+      "period": "2008 – 2014",
+      "title": "Butiksmedarbetare",
+      "place": "ICA Maxi i Skåne",
+      "description": "Butik och förbutik med kundservice, kassa, ATG och Svenska Spel. Bred grund i service, ansvarstagande och arbete i högt tempo."
+    },
+    {
+      "period": "2004 – 2008",
+      "title": "Egen företagare",
+      "place": "Städfirma",
+      "description": "Drev egen verksamhet med ansvar för kundkontakt, planering, kvalitet och leverans. Uppdrag för bland annat Statens fastighetsverk, WWF och Kungliga Djurgårdens Förvaltning."
+    },
+    {
+      "period": "2001 – 2004",
+      "title": "Städarbete",
+      "place": "RH-städ",
+      "description": "Servicearbete med fokus på kvalitet, noggrannhet och eget ansvar."
+    },
+    {
+      "period": "2000 – 2001",
+      "title": "Lagerbiträde och kassa",
+      "place": "Åhléns City",
+      "description": "Lagerarbete och kundnära kassaarbete."
+    },
+    {
+      "period": "1992 – 2000",
+      "title": "Städarbete",
+      "place": "RH-städ AB",
+      "description": "Flerårig erfarenhet av servicearbete och ansvar hos kund."
+    }
+  ],
+  "tools_title": "Van att arbeta praktiskt",
+  "tools_text": "Bilderna visar en del av verktygen jag använder i egna bygg- och renoveringsprojekt. Jag är van vid bland annat kap- och gersåg, cirkelsåg, skruvdragare, slipmaskiner, mätverktyg och vanliga handverktyg.",
+  "tool_images": [
+    "assets/images/tools/tools-wall.webp",
+    "assets/images/tools/tools-workbench-2.webp",
+    "assets/images/tools/tools-cabinet.webp",
+    "assets/images/tools/tools-workbench-1.webp"
+  ],
+  "cv_file": "assets/docs/Kati_Sandstrom_CV_public.pdf"
+}

@@ -1,0 +1,215 @@
+[
+  {
+    "title": "Lärstol / kökspall",
+    "category": "Möbler",
+    "summary": "En måttbyggd lärstol med tre steg, räcke och trädetaljer för en trygg och praktisk höjd vid köksbänken.",
+    "description": "Ett kompakt bygge där stabilitet, åtkomlighet och finish behöver fungera samtidigt. Den vita stommen kombineras med trästeg och handledare för en varm detalj mot köksmiljön.",
+    "tags": [
+      "Måttanpassning",
+      "Träarbete",
+      "Målning"
+    ],
+    "images": [
+      "assets/images/projects/learning-tower.webp"
+    ],
+    "featured": true
+  },
+  {
+    "title": "Smal förvaringshylla",
+    "category": "Förvaring",
+    "summary": "Platsbyggd hylla för bilvårdsprodukter som utnyttjar en smal yta med både huvudfack och mindre sidofack.",
+    "description": "Förvaringen är byggd efter innehållet och platsen. Olika höjder och små sidofack gör det lättare att organisera flaskor och produkter utan att ta onödig golvyta.",
+    "tags": [
+      "Förvaring",
+      "Platsbyggt",
+      "Funktion"
+    ],
+    "images": [
+      "assets/images/projects/storage-rack.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Fågelholk",
+    "category": "Utomhus",
+    "summary": "Klassisk fågelholk i trä med målad utsida och enkel, tydlig form.",
+    "description": "Ett mindre utomhusprojekt där träkonstruktionen fått en skyddande målad finish och placerats direkt i trädgårdsmiljön.",
+    "tags": [
+      "Utomhus",
+      "Träarbete",
+      "Målning"
+    ],
+    "images": [
+      "assets/images/projects/birdhouse.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Pallmöbler för uteplats",
+    "category": "Utomhus",
+    "summary": "Soffgrupp och bord i pallstil med vit stomme, blå dynor och ett robust uttryck för uteplats eller uterum.",
+    "description": "Ett möbelprojekt med fokus på enkel konstruktion, tålig användning och en tydlig färgsättning. Bordet följer samma formspråk som sittmöblerna.",
+    "tags": [
+      "Möbler",
+      "Utomhus",
+      "Återbrukskänsla"
+    ],
+    "images": [
+      "assets/images/projects/pallet-lounge.webp"
+    ],
+    "featured": true
+  },
+  {
+    "title": "Hundmöbel · Musse",
+    "category": "Djur & specialbyggen",
+    "summary": "Måttanpassad hundbur som även fungerar som möbel, med integrerad sidodel och personlig namndetalj.",
+    "description": "Här kombineras en praktisk hundplats med ett mer möbellikt uttryck. Gallerdörrar, svart ovansida, vit stomme och den utskurna namnskylten skapar en tydlig helhet.",
+    "tags": [
+      "Specialbygge",
+      "Måttanpassning",
+      "Detaljarbete"
+    ],
+    "images": [
+      "assets/images/projects/dog-crate-musse-1.webp",
+      "assets/images/projects/dog-crate-musse-2.webp"
+    ],
+    "featured": true
+  },
+  {
+    "title": "Förvaringsskåp",
+    "category": "Möbler",
+    "summary": "Vitt skåp med dubbla luckor, svarta beslag och en ren klassisk stil.",
+    "description": "Ett kompakt förvaringsbygge med tydliga proportioner och kontrasterande beslag. Anpassat för att fungera som både praktisk förvaring och en del av inredningen.",
+    "tags": [
+      "Förvaring",
+      "Möbelbygge",
+      "Finish"
+    ],
+    "images": [
+      "assets/images/projects/white-cabinet-1.webp",
+      "assets/images/projects/white-cabinet-2.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Bröstpanel och spegelram",
+    "category": "Inredning",
+    "summary": "Inredningsarbete med bröstpanel, listverk och en stor spegelram i en sammanhållen vit finish.",
+    "description": "Projektet visar noggrant listarbete och hur flera detaljer kan byggas ihop till ett enhetligt uttryck i rummet. Den klassiska paneleringen möter en ren och ljus färgsättning.",
+    "tags": [
+      "Listverk",
+      "Inredning",
+      "Målning"
+    ],
+    "images": [
+      "assets/images/projects/wall-paneling.webp"
+    ],
+    "featured": true
+  },
+  {
+    "title": "Leksaksstall i trä",
+    "category": "Djur & specialbyggen",
+    "summary": "Detaljerat leksaksstall med flera boxar, mittgång, grindar och små praktiska detaljer.",
+    "description": "Ett precisionsprojekt i mindre skala med många separata delar. Boxar, skiljeväggar och grindar är uppbyggda för att skapa en fungerande stallmiljö för leksakshästar.",
+    "tags": [
+      "Detaljarbete",
+      "Träarbete",
+      "Specialbygge"
+    ],
+    "images": [
+      "assets/images/projects/toy-stable.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Skohylla med bänk",
+    "category": "Möbler",
+    "summary": "Vit skohylla med två nivåer och ovansida som även fungerar som avlastningsyta.",
+    "description": "En enkel men funktionell hallmöbel med luftig konstruktion. Ribborna ger bra plats för skor samtidigt som den plana ovansidan skapar extra användbar yta.",
+    "tags": [
+      "Hallmöbel",
+      "Förvaring",
+      "Träarbete"
+    ],
+    "images": [
+      "assets/images/projects/shoe-bench.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Hundmöbel · Bella & Bus",
+    "category": "Djur & specialbyggen",
+    "summary": "Personligt utformad hundbur med möbelkänsla, gallerdetaljer och namnskylt.",
+    "description": "Ett specialbygge där hundens plats blir en del av hemmets inredning. Den vita ramen och svarta gallerdetaljerna kombineras med ett personligt namn på fronten.",
+    "tags": [
+      "Specialbygge",
+      "Djur",
+      "Möbel"
+    ],
+    "images": [
+      "assets/images/projects/dog-crate-bella-bus.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Inredningsdetalj och finish",
+    "category": "Inredning",
+    "summary": "Exempel på mindre inredningsarbete med målning och dekorativa detaljer.",
+    "description": "Ett projekt som visar intresset för att arbeta även med de mindre detaljerna i ett rum och skapa ett konsekvent uttryck.",
+    "tags": [
+      "Inredning",
+      "Målning",
+      "Detaljer"
+    ],
+    "images": [
+      "assets/images/projects/door-detail.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Växtställ",
+    "category": "Möbler",
+    "summary": "Fristående växtställ med flera nivåer som lyfter upp krukor och utnyttjar höjden framför ett fönster.",
+    "description": "En lätt och luftig konstruktion som samlar flera växter på liten golvyta och samtidigt ger dem olika höjder.",
+    "tags": [
+      "Växtställ",
+      "Möbelbygge",
+      "Funktion"
+    ],
+    "images": [
+      "assets/images/projects/plant-stand.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Små specialbyggen",
+    "category": "Djur & specialbyggen",
+    "summary": "Mindre träbyggen med fack, öppningar och specialanpassade detaljer för ett bestämt användningsområde.",
+    "description": "Alla projekt behöver inte vara stora. Här syns exempel på mindre konstruktioner där mått, indelning och detaljer har anpassats efter den tänkta funktionen.",
+    "tags": [
+      "Specialbygge",
+      "Träarbete",
+      "Problemlösning"
+    ],
+    "images": [
+      "assets/images/projects/special-build-1.webp",
+      "assets/images/projects/special-build-2.webp"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Fågelbord med lekfull form",
+    "category": "Utomhus",
+    "summary": "Ett mindre fågelbord i trä, utformat som en liten sittplats med bänk och parasoll.",
+    "description": "Ett lekfullt utomhusprojekt där ett enkelt fågelbord fått en mer personlig möbeldesign i röd kulör.",
+    "tags": [
+      "Utomhus",
+      "Träarbete",
+      "Detaljarbete"
+    ],
+    "images": [
+      "assets/images/projects/bird-feeder.webp"
+    ],
+    "featured": false
+  }
+]

@@ -1,0 +1,192 @@
+media:
+  - name: images
+    label: Bilder
+    input: assets/images
+    output: assets/images
+    categories: [image]
+    rename: safe
+  - name: docs
+    label: Dokument
+    input: assets/docs
+    output: assets/docs
+    categories: [document]
+    rename: safe
+
+content:
+  - name: projects
+    label: Projekt
+    type: file
+    path: data/projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Projektnamn
+        type: string
+        required: true
+      - name: category
+        label: Kategori
+        type: select
+        required: true
+        options:
+          values: [Möbler, Förvaring, Inredning, Utomhus, "Djur & specialbyggen"]
+      - name: summary
+        label: Kort text
+        type: text
+        required: true
+        description: Visas direkt på projektkortet.
+        options:
+          maxlength: 260
+      - name: description
+        label: Längre beskrivning
+        type: text
+        required: true
+        description: Visas när man öppnar projektet.
+      - name: tags
+        label: Nyckelord
+        type: string
+        list: true
+        description: "Exempel: Träarbete, Förvaring, Måttanpassning."
+      - name: images
+        label: Bilder
+        type: image
+        required: true
+        description: Den första bilden blir projektets omslagsbild. Lägg gärna flera bilder här.
+        options:
+          media: images
+          path: projects
+          multiple:
+            max: 12
+          unique: true
+          extensions: [jpg, jpeg, png, webp]
+          rename: safe
+      - name: featured
+        label: Stort projektkort
+        type: boolean
+        description: Slå på för projekt du vill lyfta fram extra på sidan.
+
+  - name: profile
+    label: Profil & CV
+    type: file
+    path: data/profile.json
+    format: json
+    fields:
+      - name: name
+        label: Namn
+        type: string
+      - name: role
+        label: Rollrad
+        type: string
+      - name: eyebrow
+        label: Liten rad ovanför rubriken
+        type: string
+      - name: hero_title
+        label: Huvudrubrik
+        type: text
+      - name: hero_text
+        label: Introtext
+        type: text
+      - name: location
+        label: Ort
+        type: string
+      - name: phone
+        label: Telefon
+        type: string
+      - name: email
+        label: E-post
+        type: string
+      - name: about_title
+        label: Rubrik för Om mig
+        type: string
+      - name: about
+        label: Om mig - stycken
+        type: text
+        list: true
+      - name: stats
+        label: Snabbfakta
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{value} · {label}"
+        fields:
+          - name: value
+            label: Siffra/värde
+            type: string
+          - name: label
+            label: Förklaring
+            type: string
+      - name: strengths
+        label: Styrkor
+        type: string
+        list: true
+      - name: skills
+        label: Kompetenser
+        type: string
+        list: true
+      - name: languages
+        label: Språk
+        type: string
+        list: true
+      - name: licenses
+        label: Körkort & behörigheter
+        type: string
+        list: true
+      - name: courses
+        label: Utbildningar
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{year} · {title}"
+        fields:
+          - name: year
+            label: År
+            type: string
+          - name: title
+            label: Utbildning
+            type: string
+      - name: experience
+        label: Arbetslivserfarenhet
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{period} · {title}"
+        fields:
+          - name: period
+            label: Period
+            type: string
+          - name: title
+            label: Roll
+            type: string
+          - name: place
+            label: Arbetsplats
+            type: string
+          - name: description
+            label: Beskrivning
+            type: text
+      - name: tools_title
+        label: Rubrik för verktyg
+        type: string
+      - name: tools_text
+        label: Text om verktyg
+        type: text
+      - name: tool_images
+        label: Verktygsbilder
+        type: image
+        options:
+          media: images
+          path: tools
+          multiple:
+            max: 8
+          unique: true
+          extensions: [jpg, jpeg, png, webp]
+          rename: safe
+      - name: cv_file
+        label: CV som PDF
+        type: file
+        options:
+          media: docs
+          extensions: [pdf]
+          rename: safe
