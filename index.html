@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio för Kati Sandström – butiksansvarig, arbetsledare och praktisk problemlösare med stort intresse för snickeri och verktyg.">
+  <meta name="theme-color" content="#252923">
+  <meta property="og:title" content="Kati Sandström · Portfolio">
+  <meta property="og:description" content="Butiksdrift, arbetsledning, snickeri och praktiska speciallösningar.">
+  <meta property="og:image" content="assets/images/projects/wall-paneling.webp">
+  <title>Kati Sandström · Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Hoppa till innehållet</a>
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#top" aria-label="Till startsidan">
+      <span class="brand-mark">KS</span>
+      <span class="brand-name">Kati Sandström</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Meny</button>
+    <nav class="main-nav" id="main-nav" aria-label="Huvudnavigation">
+      <a href="#projekt">Projekt</a>
+      <a href="#om">Om mig</a>
+      <a href="#erfarenhet">Erfarenhet</a>
+      <a href="#verktyg">Verktyg</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="nav-cv" id="nav-cv" href="#" target="_blank" rel="noopener">CV ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" id="eyebrow">Portfolio · Sollentuna</p>
+        <h1 id="hero-title">Praktiskt handlag möter erfaren arbetsledning.</h1>
+        <p class="hero-lead" id="hero-text"></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projekt">Se mina projekt</a>
+          <a class="button button-ghost" href="#kontakt">Kontakta mig</a>
+        </div>
+        <div class="hero-meta" id="hero-meta"></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Exempel på snickeriprojekt">
+        <div class="hero-image-wrap">
+          <img id="hero-image" src="assets/images/projects/wall-paneling.webp" alt="Vit bröstpanel och spegelram, ett snickeriprojekt av Kati Sandström">
+        </div>
+        <div class="hero-card">
+          <span>Utvalt arbete</span>
+          <strong id="hero-project-name">Bröstpanel & spegelram</strong>
+          <a href="#projekt">Utforska portfolio →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section" aria-label="Snabbfakta">
+      <div class="stats-grid" id="stats-grid"></div>
+    </section>
+
+    <section class="section about" id="om">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Om mig</p>
+        <h2 id="about-title">Ansvar, service och praktiskt handlag</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal" id="about-copy"></div>
+        <aside class="strength-card reveal">
+          <p class="eyebrow">Så arbetar jag</p>
+          <ul id="strength-list"></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projekt">
+      <div class="section-heading section-heading-row reveal">
+        <div>
+          <p class="eyebrow">Byggt på fritiden</p>
+          <h2>Projekt & praktiska lösningar</h2>
+        </div>
+        <p class="section-intro">Möbler, förvaring, inredning och specialbyggen. Klicka på ett projekt för fler bilder och detaljer.</p>
+      </div>
+      <div class="filters reveal" id="project-filters" aria-label="Filtrera projekt"></div>
+      <div class="project-grid" id="project-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="section tools-section" id="verktyg">
+      <div class="tools-copy reveal">
+        <p class="eyebrow">Verktyg & arbetssätt</p>
+        <h2 id="tools-title">Van att arbeta praktiskt</h2>
+        <p id="tools-text"></p>
+        <div class="chip-list" id="craft-skills"></div>
+      </div>
+      <div class="tool-mosaic reveal" id="tool-mosaic"></div>
+    </section>
+
+    <section class="section experience-section" id="erfarenhet">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CV</p>
+        <h2>Arbetslivserfarenhet</h2>
+      </div>
+      <div class="experience-layout">
+        <div class="timeline" id="experience-timeline"></div>
+        <aside class="cv-aside reveal">
+          <div class="aside-block">
+            <h3>Kompetenser</h3>
+            <div class="chip-list" id="skills-list"></div>
+          </div>
+          <div class="aside-block two-columns-mobile">
+            <div>
+              <h3>Språk</h3>
+              <ul class="plain-list" id="languages-list"></ul>
+            </div>
+            <div>
+              <h3>Körkort</h3>
+              <ul class="plain-list" id="licenses-list"></ul>
+            </div>
+          </div>
+          <div class="aside-block">
+            <h3>Utbildningar</h3>
+            <ul class="course-list" id="courses-list"></ul>
+          </div>
+          <a class="button button-dark full-width" id="cv-button" href="#" target="_blank" rel="noopener">Öppna CV som PDF ↗</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="contact-section" id="kontakt">
+      <div class="contact-inner reveal">
+        <div>
+          <p class="eyebrow eyebrow-light">Kontakt</p>
+          <h2>Vill du veta mer om min erfarenhet eller mina projekt?</h2>
+          <p>Hör gärna av dig. Jag finns i Sollentuna och är van att arbeta både praktiskt, kundnära och med ansvar för den dagliga driften.</p>
+        </div>
+        <div class="contact-actions" id="contact-actions"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Kati Sandström</span>
+    <span>Portfolio · Sollentuna</span>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Stäng projekt">×</button>
+      <div class="dialog-gallery">
+        <button class="gallery-nav gallery-prev" id="gallery-prev" type="button" aria-label="Föregående bild">‹</button>
+        <img id="dialog-image" alt="">
+        <button class="gallery-nav gallery-next" id="gallery-next" type="button" aria-label="Nästa bild">›</button>
+        <div class="gallery-counter" id="gallery-counter"></div>
+      </div>
+      <div class="dialog-content">
+        <p class="eyebrow" id="dialog-category"></p>
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-summary" id="dialog-summary"></p>
+        <p id="dialog-description"></p>
+        <div class="chip-list" id="dialog-tags"></div>
+        <div class="thumbnail-row" id="dialog-thumbnails"></div>
+      </div>
+    </div>
+  </dialog>
+
+  <noscript>Den här sidan behöver JavaScript för att visa projekt och CV-information.</noscript>
+</body>
+</html>
